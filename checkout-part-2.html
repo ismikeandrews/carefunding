@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carefunding</title>
+    <link rel="stylesheet" href="css/base-responsive.css">
+    <link rel="stylesheet" href="css/internal.css">
+</head>
+<body>
+
+<header id="main-header">
+	<nav class="navbar navbar-expand-xl navbar-light">
+		<div class="container">
+
+			<a class="navbar-brand logo" href="index.html">
+				<img src="img/carefunding-logo.svg" alt="Carefunding">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="main-menu">
+			
+				<form class="search">
+					<input class="form-control" type="search" placeholder="Buscar projetos" aria-label="Search">
+					<button type="submit">
+						<span class="icon-search"></span>
+					</button>
+				</form>
+				
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="project-list.html">Projetos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faq.html">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="register.html">Cadastro</a>
+					</li>
+				</ul>
+			</div>
+
+			<a href="login.html" class="btn btn-custom btn-custom-primary login-button">
+				<i class="icon-user left-icon"></i>
+				<span class="text">Login</span>
+			</a>
+
+		</div>
+	</nav>
+</header>
+
+<nav id="main-guide">
+	<div class="container">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Construção de creche pública em bairro de difícil acesso</a></li>
+			<li><a href="">Contribuição</a></li>
+			<li>Pagamento</li>
+		</ul>
+	</div>
+</nav>
+
+<section class="internal-base two-cols checkout-part-2-page">
+	<div class="container">
+		<h1 class="page-title">Pagamento</h1>
+		<div class="row">
+
+			<div class="col-xl-8">
+				<div class="left-col">
+				
+					<!-- Payment Info Box -->
+					<div class="gray-box payment-info-box">
+						<h2>Informações de Pagamento</h2>
+
+						<div class="row">
+
+							<div class="col-xxl-8">
+								<div class="form-group-custom">
+									<label for="">Nome completo *</label>
+									<input type="text" class="form-control" placeholder="Seu nome">
+								</div>
+							</div>
+							<div class="col-xxl-4 col-md-6">
+								<div class="form-group-custom">
+									<label for="">CPF / CNPJ *</label>
+									<input type="text" class="form-control" placeholder="Seu CPF ou CNPJ">
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="form-group-custom">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="dontShow">
+										<label class="form-check-label" for="dontShow">Quero que meu apoio não fique público</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xxl-8 col-md-6">
+								<div class="form-group-custom">
+									<label for="">País *</label>
+									<select class="form-select">
+										<option value="">Brasil</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-xxl-8 col-md-6">
+								<div class="form-group-custom">
+									<div class="d-flex justify-content-between">
+										<label for="">CEP *</label><a href="">Não sei meu CEP</a>
+									</div>
+									<input type="text" class="form-control" placeholder="Número do seu CEP">
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="form-group-custom">
+									<label for="">Endereço *</label>
+									<input type="text" class="form-control" placeholder="Rua, Avenida, etc">
+								</div>
+							</div>
+
+							<div class="col-xxl-4 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Número *</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-xxl-4 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Complemento</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-xxl-4 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Bairro *</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="form-group-custom">
+									<label for="">Cidade *</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-xxl-2 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Estado *</label>
+									<select class="form-select">
+										<option value="">PI</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-xxl-4 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Telefone *</label>
+									<input type="text" class="form-control" placeholder="Número do telefone">
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					<!-- end Payment Info Box -->
+
+					<!-- Payment Method Box -->
+					<div class="gray-box payment-method-box">
+						<h2>Forma de Pagamento</h2>
+
+						<div class="options">
+							<div class="row">
+								<div class="col-4">
+									<div class="item">
+										<input type="radio" id="card_method" name="payment_method" checked="checked">
+										<label for="card_method" class="content">
+											<i class="icon-card"></i>
+											<span class="text">Cartão</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="item">
+										<input type="radio" id="ticket_method" name="payment_method">
+										<label for="ticket_method" class="content">
+											<i class="icon-barcode"></i>
+											<span class="text">Boleto</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="item">
+										<input type="radio" id="pix_method" name="payment_method">
+										<label for="pix_method" class="content">
+											<i class="icon-pix"></i>
+											<span class="text">Pix</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="form-group-custom">
+									<label for="">Digite o número do cartão de crédito *</label>
+									<input type="text" class="form-control" placeholder="Número do cartão">
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-6">
+								<div class="form-group-custom">
+									<label for="">CPF do(a) titular do cartão *</label>
+									<input type="text" class="form-control" placeholder="xxx.xxx.xxx-xx">
+								</div>
+							</div>
+							<div class="col-xxl-7 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Nome do(a) titular do cartão *</label>
+									<input type="text" class="form-control" placeholder="Digite o nome">
+								</div>
+							</div>
+							<div class="col-xxl-5 col-md-6">
+								<div class="row">
+									<div class="col-6">
+										<div class="form-group-custom">
+											<label for="">Validade *</label>
+											<input type="text" class="form-control" placeholder="MM/AA">
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="form-group-custom">
+											<label for="">CVV *</label>
+											<input type="text" class="form-control" placeholder="xxxx">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<div class="col-lg-7 col-md-6">
+								<div class="form-group-custom">
+									<label for="">Quantidade de parcelas *</label>
+									<select class="form-select">
+										<option>1x de R$ 20,00</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- end Payment Method Box -->
+
+					<div class="form-group-custom accept-terms">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="acceptTerms">
+							<label class="form-check-label" for="acceptTerms">Li e aceito os <a href="">Termos de Uso</a> e <a href="">Política de Privacidade</a>.</label>
+						</div>
+					</div>
+
+					<div class="end-button">
+						<button class="btn btn-custom-large btn-custom-success">
+							<i class="left-icon icon-lock"></i>
+							<span class="text">Finalizar</span>
+						</button>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-xl-4">
+				<div class="right-col">
+
+					<div class="white-box resume-box">
+						<span class="big-text">R$ 20,00</span>
+						<div class="label-and-text">
+							<span class="label">Projeto</span>
+							<p class="text">Construção de creche pública em bairro de difícil acesso</p>
+						</div>
+						<div class="label-and-text">
+							<span class="label">Recompensa</span>
+							<p class="text">Bixinhos de Pelúcias Totoro</p>
+						</div>
+					</div>
+
+					<div class="white-box faq-box">
+						<h2 class="box-title">Dúvidas frequentes</h2>
+						<ul class="common-ul-links">
+							<li><a href="">Como eu apoio este projeto?</a></li>
+							<li><a href="">Quando o pagamento é efetivado?</a></li>
+							<li><a href="">Quando recebo minha recompensa?</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<footer id="main-footer">
+	<div class="container">
+		<div class="links">
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="logo-and-social">
+						<a href="index.html" class="logo">
+							<img src="img/carefunding-logo.svg" alt="">
+						</a>
+						<div class="social">
+							<h5>Siga-nos no</h5>
+							<div class="list">
+								<a href="" class="item">
+									<i class="icon-instagram"></i>
+								</a>
+								<a href="" class="item">
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="" class="item">
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="" class="item">
+									<i class="icon-youtube"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="link-list">
+								<h5>Principais</h5>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="project-list.html">Projetos</a></li>
+									<li><a href="register.html">Cadastro</a></li>
+									<li><a href="login.html">Login</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="link-list">
+								<h5>Sobre</h5>
+								<ul>
+									<li><a href="about-us.html">Sobre nós</a></li>
+									<li><a href="faq.html">FAQ</a></li>
+									<li><a href="contact.html">Contato</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="link-list">
+								<h5>Links úteis</h5>
+								<ul>
+									<li><a href="faq.html">Por que doar?</a></li>
+									<li><a href="faq.html">Brindes</a></li>
+									<li><a href="faq.html">Grandes Causas</a></li>
+									<li><a href="faq.html">Como tudo começou</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="end-bar">
+		<span>Carefunding 2021 © Todos os direitos reservados</span>
+	</div>
+</footer>
+
+<script src="js/base-libs.js"></script>
+<script src="js/jquery.maskMoney.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>

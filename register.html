@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carefunding</title>
+    <link rel="stylesheet" href="css/base-responsive.css">
+    <link rel="stylesheet" href="css/internal.css">
+</head>
+<body>
+
+<section class="login-and-register-page">
+	<div class="content">
+
+		<a href="index.html" class="logo">
+			<figure>
+				<img src="img/carefunding-logo.svg">
+			</figure>
+		</a>
+
+		<h1>Faça seu cadastro</h1>
+
+		<form class="white-box" action="">
+
+			<div class="form-group-custom">
+				<label for="">E-mail</label>
+				<input type="email" class="form-control" placeholder="Seu e-mail">
+			</div>
+
+			<div class="form-group-custom">
+				<label for="">Senha</label>
+				<input type="password" class="form-control" placeholder="••••••">
+			</div>
+
+			<div class="main-button">
+				<button class="btn btn-custom btn-custom-primary">Criar uma conta</button>
+			</div>
+
+			<div class="links">
+				<a href="login.html">Já tenho conta, fazer login</a>
+			</div>
+
+		</form>
+
+	</div>
+</section>
+
+<script src="js/base-libs.js"></script>
+<script src="js/base.js"></script>
+<script>
+jQuery(document).ready(function($) {
+
+	/* Change content to fit the screen */
+	changeContent()
+
+	$(window).resize(function() {
+		changeContent();
+	});
+
+	function changeContent() {
+		var wh = $(window).height();
+		var ch = $('.content').height();
+		var loginPage = $('.login-and-register-page');
+		if (ch > wh) {
+			loginPage.addClass('without-flex');
+		} else {
+			loginPage.removeClass('without-flex');
+		}
+	}
+	/* end Change content... */
+
+}); // end JQuery(document).ready
+</script>
+</body>
+</html>

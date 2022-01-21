@@ -1,0 +1,196 @@
+@import "./base.css";
+
+
+/* xxl */
+@media only screen and (min-width:1400px)  {
+}
+
+/* xl */
+@media only screen and (max-width:1399px)  {
+    #main-hero .content .hero-text {
+        max-width: 435px;
+        min-width: 435px;
+        height: 650px;
+        padding-bottom: 50px;
+    }
+    #main-hero .content .carousel .splide__track {
+        height: 650px !important;
+    }
+    #main-hero .content .carousel figure {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+
+    .project-list-box {
+        margin-bottom: 100px;
+    }
+    .project-list > .row {
+        --bs-gutter-x: 30px;
+    }
+}
+
+/* lg */
+@media only screen and (max-width:1199px)  {
+    #main-header .navbar .login-button {
+        position: absolute;
+        right: 90px;
+        top: 15px;
+        border-radius: 100px;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    #main-header .navbar .logged-in-user {
+        position: absolute;
+        right: 90px;
+        top: -5px;
+    }
+    #main-header .navbar .login-button .text {
+        display: none;
+    }
+    #main-header .navbar .login-button i {
+        margin: 0;
+    }
+    #main-header .navbar .navbar-toggler {
+        margin-right: 0
+    }
+    #main-header .navbar .search {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    #main-header .navbar-nav {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #main-hero .content .carousel {
+        display: none;
+    }
+    #main-hero .content .hero-text {
+        max-width: none;
+        min-width: auto;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+    #main-hero .content .hero-text p {
+        padding: 0;
+        max-width: 500px;
+    }
+    #main-hero .content .hero-text .btn {
+        margin-top: 20px;
+    }
+}
+
+/* md */
+@media only screen and (max-width:991px)  {
+    .project-list-box {
+        margin-bottom: 50px;
+    }
+    .project-list .project-item {
+        margin-bottom: 50px;
+    }
+
+    .newsletter-box {
+        padding-top: 0;
+    }
+}
+
+/* sm */
+@media only screen and (max-width:767px)  {
+    #main-hero .content .hero-text {
+        height: auto;
+        padding: 30px 0 70px;
+    }
+    #main-hero .content .hero-text .hat {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    #main-hero .content .hero-text h1 {
+        font-size: 30px;
+    }
+    #main-hero .content .hero-text p {
+        font-size: 18px;
+    }
+
+    .project-list-box header h2 {
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .newsletter-box {
+        margin-bottom: 50px;
+    }
+    .newsletter-box h4 {
+        font-size: 30px;
+    }
+    .newsletter-box p {
+        font-size: 18px;
+    }
+    .newsletter-box .form {
+        width: auto;
+    }
+    .newsletter-box .form .field {
+        height: 70px !important;
+        padding-left: 75px !important;
+        padding-right: 30px !important;
+        font-size: 18px !important;
+    }
+    .newsletter-box .form .btn {
+        height: 48px;
+        font-size: 18px;
+        padding: 0 25px;
+        top: 10px;
+        right: 10px;
+    }
+    .newsletter-box .form .btn .right-icon {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .newsletter-box .form .field-icon {
+        top: 24px;
+        left: 30px;
+    }
+
+    #main-footer {
+        background-position: center 100%;
+    }
+    #main-footer .links .logo-and-social {
+        margin-bottom: 50px;
+    }
+}
+
+/* xs */
+@media only screen and (max-width:575px)  {
+    #main-header .navbar .container {
+        padding: 0 10px;
+    }
+    #main-header .navbar .login-button {
+        position: absolute;
+        right: 85px;
+    }
+
+    .project-list > .row {
+        --bs-gutter-x: 1.5rem;
+    }
+
+    #main-footer {
+        text-align: center;
+    }
+    #main-footer .links .logo-and-social .social .list {
+        justify-content: center;
+    }
+    #main-footer .links .link-list {
+        margin-bottom: 20px;
+    }
+    #main-footer .links .link-list h5 {
+        margin-bottom: 20px;
+    }
+    #main-footer .links .link-list ul li {
+        margin-bottom: 5px;
+    }
+}
